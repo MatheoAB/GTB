@@ -94,11 +94,15 @@ a {
   padding-bottom: 4rem;
 }
 
+
+
 p {
   margin: 20px 40px;
 }
 
 table {
+  margin-top: 25px;
+  margin-left: 500px;
   width: 50%;
   border-collapse: collapse;
   background-color: #1e1e1e;
@@ -119,4 +123,8 @@ th {
 
 tr:hover {
   background-color: #333;
+}
+
+img{
+  margin-left: -200px;
 }
