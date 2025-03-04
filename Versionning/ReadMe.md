@@ -41,6 +41,24 @@
 - Tracer la courbe du signal sinusoïdal $s(t)=a.sin(2\pi .f .t+\frac{\pi}{3})$
   - Modifier le fichier `code.ipynb`
 
-<kbd> [GitHub](https://github.com/boudjelaba) ↗️ </kbd>
+---
 
-## Modification du fichier MarkDown à 11h48 le jeudi 13/02/2025
+# Arborescence du dossier  :
+
+```
+📦Versionning
+ ┣ 📂Py
+ ┃ ┗ 📜code.ipynb
+ ┣ 📂Web
+ ┃ ┣ 📜index.html
+ ┃ ┗ 📜style.css
+ ┣ 📜CES.jpg
+ ┣ 📜Git_Exp.pdf
+ ┗ 📜ReadMe.md
+```
+
+---
+
+<git> [GitHub](https://github.com/MatheoAB/GTB) ↗️ </git>
+
+## Modification du fichier MarkDown à 14h47 le jeudi 04/03/2025

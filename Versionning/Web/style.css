@@ -22,7 +22,14 @@ button {
   cursor: pointer;
 }
 
-h1, h2, h3, h4, input, select, button, span, a, p {
+h1{
+  text-align: center;
+  color: var(--font-color);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+}
+
+h2, h3, h4, input, select, button, span, a, p {
   color: var(--font-color);
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
@@ -91,3 +98,25 @@ p {
   margin: 20px 40px;
 }
 
+table {
+  width: 50%;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  background-color: #242424;
+}
+
+tr:hover {
+  background-color: #333;
+}
