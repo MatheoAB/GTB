@@ -1,0 +1,93 @@
+:root {
+  --font-color: #FFFFFF;
+  --color-primary: #7380ec;
+  --gradient-color-1: #96D6E1; 
+  --gradient-color-2: #B3E5CF;
+}
+
+body {
+  background-color: #5a585b;
+  margin: 0px;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, input, select, button, span, a, p {
+  color: var(--font-color);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+}
+
+button, a, input {  
+  outline: none;
+}
+
+#nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+/*  position: absolute;*/
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+  background-color: #333333;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid rgb(255 255 255 / 10%);
+}
+
+#nav > button {
+  padding: 0.5rem 1.5rem;  
+  border-radius: 0.25rem;
+  position: relative;
+}
+
+#nav > button.active:after {
+  content: "";
+  height: 0.25rem;
+  width: 5rem;
+  position: absolute;
+  top: -0.5rem;
+  left: 50%;
+  translate: -50%;
+  background: var(--color-primary);
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+#nav > button:hover,
+#nav > button:focus-visible {
+  background-color: rgb(255 255 255 / 10%);
+}
+
+#nav > button > i {
+  width: 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.corps {
+  display: block;
+  background-color: #5a585b;
+  position: relative;
+  margin: 2rem 1rem;
+  padding-bottom: 4rem;
+}
+
+p {
+  margin: 20px 40px;
+}
+
