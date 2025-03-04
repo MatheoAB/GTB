@@ -59,6 +59,60 @@
 
 ---
 
-<git> [GitHub](https://github.com/MatheoAB/GTB) ↗️ </git>
+# Codes Python :
 
-## Modification du fichier MarkDown à 14h47 le jeudi 04/03/2025
+### Programme python Version N°1 :
+
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Paramètres du signal
+a = 1.0  # Amplitude
+f = 1.0  # Fréquence en Hz
+t = np.linspace(0, 1, 1000)  # Intervalle de temps
+
+# Signal sinusoïdal
+s = a * np.sin(2 * np.pi * f * t)
+
+# Tracé du signal
+plt.figure(figsize=(10, 4))
+plt.plot(t, s, label='s(t) = a.sin(2π.f.t)')
+plt.title('Signal Sinusoïdal')
+plt.xlabel('Temps (s)')
+plt.ylabel('Amplitude')
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+### Programme python Version N°2 :
+
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Paramètres du signal
+a = 1.0  # Amplitude
+f = 1.0  # Fréquence en Hz
+t = np.linspace(0, 1, 1000)  # Intervalle de temps
+
+# Signal sinusoïdal
+s = a * np.sin(2 * np.pi * f * t + np.pi / 3)
+
+# Tracé du signal
+plt.figure(figsize=(10, 4))
+plt.plot(t, s, label='s(t) = a.sin(2π.f.t + π/3)')
+plt.title('Signal Sinusoïdal')
+plt.xlabel('Temps (s)')
+plt.ylabel('Amplitude')
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+---
+
+<git>[ Mon GitHub](https://github.com/MatheoAB/GTB) ↗️ </git>
+
+## Dernière modification du fichier MarkDown à 15h20 le mardi 04/03/2025.
