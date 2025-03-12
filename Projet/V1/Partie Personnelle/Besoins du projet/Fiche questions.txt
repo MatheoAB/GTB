@@ -1,0 +1,36 @@
+Fiche questions :
+
+1 - Qu'est ce qu'un Endpoint ?
+> Il s''agit d'un point de passage par lequel les API passent pour fonctionner correctement.
+
+2 - Qu'est-il entendu par la "logique métier" ? / Comment puis-je l'adapter à notre système ? 
+> Il s'agit d'un ensemble de règles mise ne place lors d'un projet ou pour une application précise. Dans notre cas, cela doit être présent de
+> ???
+
+3 - L'authentification doit elle suivre des consignes de sécurité précises ? Avec un cryptage ?
+>
+> Oui, les données doivent être cryptées au maximum de sorte à ne rien pouvoir obtenir. {Mot de passe, données, connexion, etc.}
+
+4 - Faut-il une page qui s'autogénère ?
+> Oui, pour la finalité, la page doit lors de la première connexion ou en fonction de se que choisit l'utilisateur, s'autocréer. Ce qui permet le gain de temps ainsi qu'une mixité lors de la création de l'interface en fonction des besoins utilisateurs.
+
+5 - Qu'est ce que la configuration du projet au sein de la partie N°1 ? 
+>
+
+6 - 
+>
+
+7 - 
+>
+
+8 - 
+>
+
+9 - 
+>
+
+10 - 
+>
+
+11 - 
+>

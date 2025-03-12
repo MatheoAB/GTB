@@ -1,0 +1,34 @@
+Revue N°1 :
+
+- M. Boudjelaba / M. GALVIER
+Vendredi 12h ---> 13h le 14/05/2024
+
+Documents à rendre = documents en lien avec l'oral.
+Pas de limite de diapo et temps max 10 min.
+
+La revue comporte l'appropriation de sa partie :
+
+1- Rappel projet commun 
+	- Vue d'ensemble
+	- Répartition
+	- Parties et contexte
+
+2- Partie personnelle
+	- Présentation de la partie
+	- Diagrammes et planning (Cas d'utilisation / Exigences)
+	- Liste des tâches personnelles (Comment ? Langages ? Solutions logicielles et matérielles)
+	- Lien avec les autres parties du projet (Avec qui ? Quoi ?)
+
+3- Gestion de projet
+	- Organisation (Réunions)
+	- Drive et Méthodes
+
+---
+Partie commune :
+
+- Présentation du projet
+- Revue
+
+30h --> Revue 1 (Vacances de Février)
+100h --> Revue 2 (Vacances de Pâques)
+150h --> Revue 3

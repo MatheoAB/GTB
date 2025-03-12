@@ -1,0 +1,101 @@
+----------------------------------------------------------------------------------------------|
+Développement des différentes solutions envisagées :                                          |
+                                                                                              |
+                                /////Solutions Tâche N°0\\\\\                                 |
+                                                                                              |
+1 - Création d'un drive disposant des différentes documents requis depuis le début du projet. |
+Les documents sont triés en fonction de leur utilité dans le projet ainsi que de leur         |
+importance au sein de celui-ci. Des versions complètes de ce drive seront créés de sortes à   |
+pouvoir observer l'avancer des tâches ainsi que celle du projet. Une backup de ces versions   |
+sera privée et cryptée afin d'être sûr de pouvoir revenir en arrière si besoin.               |
+----------------------------------------------------------------------------------------------|
+                                /////Solutions Tâche N°1\\\\\                                 |
+                                                                                              |
+1 - L'installation des différents logiciels ainsi que des différentes dépendances qui les     |
+composent sont disponibles depuis un poste utilisateur auquel tous les participants du projet |
+peuvent s'ils le souhaitent y avoir accès afin de les utiliser pour leur partie.              |
+                                                                                              |
+2 - Installation des logiciels sur une clé USB afin de pouvoir les utiliser depuis un autre   |
+poste utilisateur si besoin. La clé USB permet de pouvoir ouvrir les logiciels sans même avoir|
+à les installer.                                                                              |
+----------------------------------------------------------------------------------------------|
+                                /////Solutions Tâche N°2\\\\\                                 |
+                                                                                              |
+1 - La première option serait de mettre en place une seul base de données. Elle comporterait  |
+toutes les sous bases de données ainsi que les différentes tables requises pour les variables,|
+les informations de connexion, les états matériels, etc. Cette solution nous permettrait de   |
+regrouper toutes nos informations sur une seul base de données localisée sur un ordinateur.   |
+                                                                                              |
+2 - La deuxième solution serait la suivante : Installer la base de données sur une session    |
+pouvant être utilisée par tous les utilisateurs en ayant les droits. Cette option sécuriserait|
+dans un premier le poste contenant la base de données en plus de l'authentification de la     |
+base de données. Cette solution développe également la possibilité de diviser en plusieurs    |
+parties la base de données principale. Une BDD "Utilisateurs", une "Relevés", une "Etats", etc|
+Ce qui en cas d'erreur d'une table ou d'une BDD, les autres ne seraient pas impactées par le  |
+problème et pourraient encore être utilisées par la suite. Un système de backups automatiques |
+pourrait aussi être mis en place afin de gagner du temps et aussi en organisation.            |
+                                                                                              | 
+3 - La dernière solution reprend les premières. En effet, il s'agit uniquement de remplacer   |
+le poste utilisateur par un Raspberry Pi. Cette option peut-être envisageable en cas de       |
+déplacements ou de changement de réseau, dans ce cas il y aurait uniquement besoin de         |
+transférer le Raspberry Pi. A l'inverse d'un poste utilisateur qui nécessiterait une          |
+réinstallation des différentes composantes propices à l'installation d'une base de données.   |
+----------------------------------------------------------------------------------------------|
+                                /////Solutions Tâche N°3\\\\\                                 |
+                                                                                              |
+1 - Mise en place d'endpoints dans des langages différents ainsi que dans des fichiers séparés|
+ce qui permettrai de séparer les différentes actions de chaque API.                           |
+                                                                                              |
+2 - Mettre en place un seul fichier regroupant toutes les API's via des fonctions uniques à   |
+chaque Endpoint. Cette option rendrait le fonctionnement plus stable et plus rapide mais en   |
+cas de problème sur une seul fonction, tout le programme pourrait poser problème au point de  |
+ne plus fonctionner du tout.                                                                  |
+                                                                                              |
+3 - La dernière solution serait de faire un seul Endpoint par lequel toutes les informations  |
+transiteraient ce qui aurait pour effet d'augmenter la vitesse mais aussi d'augmenter les     |
+risques d'arrêt du système en cas de problème.                                                |
+----------------------------------------------------------------------------------------------|
+                                /////Solutions Tâche N°4\\\\\                                 |
+                                                                                              |
+1 - En ce qui concerne la récupération des données, elle peut lors de la première solution, se|
+dérouler ainsi : récupération des données vie Wi-Fi. Cependant cela peut-être compliqué si le |
+bâtiment est dense ou possède des murs en métal ou autres objets pouvant bloquer la           |
+transmission du signal. Dépendance de la connexion internet.                                  |
+                                                                                              |
+2 - Ensuite, la deuxième solution utilise la technologie LoraWan permettant d'interconnecter  |
+les différents capteurs entre eux. Cela serait un bon moyen à la fois de sécuriser les        |
+liaisons ainsi qu'optimiser la bande passante et la communication avec la base de données via |
+la passerelle.En cas de perte de connexion, les données seraient enregistrées de manière      |
+locale avant de les renvoyer une fois la connexion rétablies.                                 |
+----------------------------------------------------------------------------------------------|
+                                /////Solutions Tâche N°5\\\\\                                 |
+                                                                                              |
+1 - Cette phase de tests peut se décomposer en plusieurs solutions. La première comporte les  |
+aspects suivant : Mettre en place des phases de tests de chaque système régulièrement afin de |
+s'assurer du bon fonctionnement ainsi que de la sécurité.                                     |
+                                                                                              |
+2 - Phase de tests unique qui survient à la fin du projet afin de valide l'entièreté du       |
+système, des équipements, connexions, sécurisation, pages web… La mise en place de documents  |
+en aparté comme des fiches d'évaluation, un audit, des fiches de tests, une fiche recette…    |
+                                                                                              |
+----------------------------------------------------------------------------------------------|
+                                /////Solutions Tâche N°6\\\\\                                 |
+                                                                                              |
+1 - La configuration des services peut elle aussi se faire de plusieurs manières. Tout d'abord|
+, elle peut se faire sur un seul et même docker se qui permettrait de tout rassembler en un   |
+seul point, de faire économiser une adresse IP ainsi que de centrer les points d'arrivé et de |
+sortie des données.                                                                           |
+                                                                                              |
+2 - La deuxième solution serait de faire des dockers dédiés à chaque parties, une partie      |
+supervision et l'autre partie serait dédiée au management du réseau. Cela rendrait possible la|
+division et ainsi la sécurisation des différentes données mais aussi la simplicité du         |
+management de chaque services.                                                                |
+----------------------------------------------------------------------------------------------|
+                                /////Solutions Tâche N°7\\\\\                                 |
+                                                                                              |
+1 - La rédaction des documents liés au projet doit se faire en plusieurs temps et de plusieurs|
+manières différentes. Tout d'abord des versions doivent êtres répertoriées. Des sauvegardes   |
+doivent êtres faites afin de pouvoir récupérer son avancée en cas de perte des documents ou   |
+autre. Au sein du projet, il y aura une partie personnelle ainsi qu'une partie commune pour  |
+regrouper et observer l'avancée du groupe. Le drive est divisé de sorte à séparer les parties.|
+----------------------------------------------------------------------------------------------|

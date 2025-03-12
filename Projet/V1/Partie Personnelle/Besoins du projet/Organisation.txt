@@ -1,0 +1,69 @@
+/////Tâche N°0\\\\\
+
+Mettre en place une connaissance du sujet.
+	> Etablir des documents. {}
+	> Mettre en place une organisation. {}
+	> Mise en place de documents imagés. {}
+	> Mettre en place une fiche dédiée aux questions. 
+	> Faire une synthèse.
+
+/////Tâche N°1\\\\\
+
+Configuration et installation d'applications à la version la plus récente.
+	> Installation "Visual Studio Code".
+	> Installation de "Node.js".
+
+/////Tâche N°2\\\\\
+
+Conception et création d'une base de données complète.
+	> Base de données mutuelles/séparées. {1 bâtiment / 1 BDD avec une table pour les capteurs & une pour les relevés}
+	> Modéliser la/les base(s) de données. {Plan MySQL}
+	> Connecter les bases de données {Programmes & Tests}
+
+/////Tâche N°3\\\\\
+
+Développement de la partie Backend.
+	> Apprentissage des connaissances requises.
+	> Rassembler les différents documents requis.
+	> Mise en place d'Endpoints dédiés à la gestion des bâtiments, des capteurs et des relevés.
+	> Système de login. {Comptes Utilisateurs/Administrateurs avec permissions attribuées}
+	> Récupérer et intégrer les différentes données.
+
+/////Tâche N°4\\\\\
+
+Vérification du fonctionnement des bases de données.
+	> Vérification de la récupération des données.
+	> Vérification de l'enregistrement automatique des valeurs de température et de consigne dans la base de données.
+	> Vérification de la connexion avec la base de données.
+	> Vérification de la modification des valeurs automatique de la page web vers la BDD puis l'inverse.
+	> Mise en place des permissions en fonction de l'utilisateur de la page web.
+	> Vérification des différents boutons et des différentes redirections présentes sur les pages du système.
+	> Vérifier la connexion utilisateurs ainsi que les permissions de chacun.
+	> Sécurisation des programmes, des différents données, des pages utilisées.
+
+/////Tâche N°5\\\\\
+
+Phase de vérification et phase de tests.
+	> Vérification du fonctionnement de chaque endpoint.
+	> Vérifier l'intégration des différentes requêtes SQL avec la partie "Frontend".
+	> Mettre en place une documentation client pour l'utilisation.
+	> Faire un audit de sécurité sur la partie connexion.
+
+/////Tâche N°6\\\\\
+
+Configuration et mise en place des services.
+	> Configuration du service "Uptime Kuma".
+	> Configuration du service "NTOPNG".
+	> *Rendre possible la surveillance des dockers, l'état du réseau ainsi que l'analyse du trafic réseau. {Zabbix}
+	> *Rendre possible la surveillance des serveurs du projet.
+	> Configuration du service "Grafana" afin de superviser l'ensemble des systèmes avec un dashboard complet. {Uptime Kuma, NTOPNG, Zabbix, NAS, etc.}
+
+/////Tâche N°7\\\\\
+
+Rédaction des documents utiles à la finalité du projet.
+	> Rédaction d'un guide d'utilisation.
+	> Rédaction de documents d'une fiche recette.
+	> Rédaction d'un protocole et d'un carnet de bord.
+	> Rédaction d'un planning.
+
+---
