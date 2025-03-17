@@ -1,0 +1,53 @@
+Logique métier :
+
+Partie BACKEND :
+Description : La partie Backend consiste à la gestion de la partie non-visible par l’utilisateur. Elle comporte donc la prise en charge des différentes connexions utilisateurs/administrateurs, la récolte et l’envoi d’informations et de variables de manière sécurisée, le chargement automatique de pages préchargées en fonction des permissions utilisateurs.
+Principales fonctionnalités : 
+Description des fonctionnalités liées à l'application et pouvant être utilisées.
+Inscription des règles à ne pas enfreindre lors de l’utilisation de la partie Backend par un utilisateur quelconque.
+Développement des permissions liées à chaque utilisateur en relation avec la partie Backend.
+Prérequis : Lors de la réalisation de certaines tâches, il sera impossible à l’utilisateur d’effectuer une tâche non prévue par le système. Il faut également faire des actions dans un ordre précis pour effectuer certaines tâches au quel cas, elles ne seront pas prises en compte ou elles seront annulées.
+Schémas : 
+Schéma des permissions utilisateurs.
+Affichage en fonction des permissions.
+???
+
+
+Fonctionnalités :
+
+	La première fonctionnalité pouvant être utilisée est la page de connexion. Elle comprend la création et la connexion d’un compte utilisateur/responsable/administrateur, la modification des informations déjà inscrite dans la base de données et liées à un compte existant. Cette page de connexion rend également accessible la visualisation d’un formulaire de contact en cas de problème lié à la connexion. 
+
+	La seconde fonctionnalité est la création automatique d’une page en fonction de l’utilisateur. S’il s’agit d’un simple élu, il n’aura pas les mêmes accès que le responsable ou alors que l'administrateur système. Toutes ces informations sont préalablement enregistrées dans la base de données pour éviter de pouvoir contourner les droits. La page sera aussi en fonction du bâtiment souhaité, auto-constructive. C’est-à-dire, que la page ne sera pas la même s’il s’agit d’une école ou d’un gymnase.
+	
+	Depuis la page internet et donc la partie Frontend, l’utilisateur peut modifier les variables de consignes ou alors modifier directement la page s’il est administrateur. L’envoi des requêtes permet de modifier une variable, activer un capteur, ajouter un capteur, etc. Les actions peuvent être réalisées en fonction des permissions dont l’utilisateur connecté dispose. Un utilisateur classique ne pourra pas modifier une consigne par exemple.
+
+Prérequis :
+
+	Comme expliqué précédemment, certaines tâches doivent être réalisées dans un ordre précis. Cet ordre est à prendre en compte si l’utilisateur ne souhaite pas rencontrer de problèmes ou de bugs. Voici une liste des tâches nécessitant des prérequis pour fonctionner correctement : 
+Connexion : Si un nouvel utilisateur souhaite se connecter, il faut dans un premier temps disposer d’un compte auquel cas la connexion sera refusée. Pour cela, l'utilisateur doit se rendre sur la page de connexion en haut à droite puis cliquer sur le message “Je ne dispose pas encore de compte”, après cela, il sera automatiquement redirigé vers une page d'inscription dans laquelle il pourra saisir les informations demandées.
+Inscription : En ce qui concerne l’inscription, il n’est pas possible que l'utilisateur possède deux comptes avec la même adresse mail. Il doit donc soit saisir une autre adresse mail, soit modifier les informations déjà existantes ou bien contacter l’assistance pour demander une “modification administrateur” qui lui permettra d’avoir deux comptes sur la même adresse mail.
+Modification : Dans le cas où l’utilisateur souhaite modifier une valeur  de consigne au-delà des limites fixées sur la page, il doit en faire la demande auprès du responsable de bâtiment ou alors de l’administrateur système. Il sera alors en mesure de modifier les consignes en cas d’urgence.
+
+Règles :
+
+	La partie Backend n’est pas directement accessible pour l’utilisateur. Il faut donc faire attention au niveau des utilisateurs possédant des permissions plus élevées comme le responsable ou encore l’administrateur SMICA. Voici une liste des règles à respecter lors de l’utilisation du système ainsi que leur description : 
+Connexion : Lors de la connexion utilisateur, les informations sont hachées, l’utilisateur est donc le seul à posséder son mot de passe et doit donc le garder secret.  En cas d’usurpation de compte suite à un partage de mot de passe, les conséquences seront attribuées à l’utilisateur ayant fourni les informations confidentielles. Il est également interdit d’essayer de modifier ou d'essayer d’obtenir des privilèges supérieurs à ceux qui nous sont attribués par défaut.
+Utilisation : Durant l’utilisation de l’application, il n’est pas autorisé de modifier un programme ou une variable sans avoir eu confirmation de la part d’un membre  . Les consignes sont définies à l’avance et sont habituellement gérées de manière automatique par le système. Il n'est également pas autorisé de le visuel de la page, cela pourrait entraîner des erreurs lors de l’utilisation des services proposées.
+
+Schémas :
+
+    Les schémas se trouvant sur ce document sont une aide à la compréhension des droits et des permissions de chaque utilisateur. Il est donc primordial de les comprendre afin de faciliter l'utilisation du système de manière générale. Pour cela, trois schémas sont présentés : 
+
+    - Schéma des permissions.
+    - Schéma d'affichage.
+    - Schéma des fonctionnalités.
+
+Schéma des permissions : 
+
+    Ce schéma présente les permissions liés à chaque utilisateur. trois niveau de permissions sont disponibles : 
+
+    - Permissions Elu
+    - Permissions Responsable
+    - Permissions Administrateur
+
+    
