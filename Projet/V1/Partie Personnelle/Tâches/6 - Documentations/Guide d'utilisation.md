@@ -1,7 +1,7 @@
 <a id="LLM"></a>
 <div align="center"> 
 
-# 🛜 Markdown - Partie Réseau 🛜
+# ⚙️ Markdown - Partie Réseau ⚙️
 </div>
 
 ---
@@ -11,17 +11,21 @@
 ## 💻 Logiciels / Langages / Matériel 💻
 
 
-[![Développement Web](https://img.shields.io/badge/HTML-CSS-yellow)](https://www.w3.org/) [![PHP SQL](https://img.shields.io/badge/PHP-MySQL-8A2BE2)](https://www.php.net/) [![C CPP](https://img.shields.io/badge/C-C++-7b68ee)](https://www.cpp.org/)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-2a52be) [![C++ Arduino](https://img.shields.io/badge/C++-Arduino-teal)](https://docs.arduino.cc/) 
-[![ESP32](https://img.shields.io/badge/ESP32-green)](https://www.espressif.com/en/products/socs/esp32) [![RPi](https://img.shields.io/badge/Raspberry%20Pi-1b4d3e)](https://www.raspberrypi.com/)
+[![Développement Web](https://img.shields.io/badge/HTML-CSS-yellow)](https://www.w3.org/) [![PHP SQL](https://img.shields.io/badge/PHP-MySQL-8A2BE2)](https://www.php.net/) ![JavaScript](https://img.shields.io/badge/JavaScript-Json-fd5000)
+
+
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-2a52be) [![Arduino](https://img.shields.io/badge/Arduino-teal)](https://docs.arduino.cc/) ![Node JS](https://img.shields.io/badge/NodeJS-fg2400)
+
+
 ![GitHub git](https://img.shields.io/badge/GitHub-git-fd5800)
+![GitLab git](https://img.shields.io/badge/GitLab-git-fd5800)
 ![Markdown](https://img.shields.io/badge/M%20⬇-191970)
 </div>
 
 ---
-<div align="center"> 
+<div align="center">
 
-## 📋 Table des matières 📋
+## 📋<cite><font color="#F2A900"> Table des matières </font></cite>📋
 
 </div>
 
@@ -41,7 +45,7 @@
 
 ## <cite><font color="#F2A900"> Présentation : </font></cite>
 
-Le projet vise à concevoir un système de contrôle d'accès et de surveillance dynamique, pilotable via un outil informatique. Ce système comprend plusieurs points de contrôle stratégiquement répartis dans les zones clés de la salle 215. Il permet également d'afficher des informations, des vidéos, et des images pour signaler des événements spécifiques.
+Ce projet présente la mise en place d'une Gestion Technique de Bâtiment. Il est composé de plusieurs parties : "Partie Réseau", "Partie LoRaWAN", "Partie Frontend" et "Partie Backend". Ces différentes parties sont toutes attribuées à des étudiants. Un cahier des charges, lié au projet et contenant les tâches ainsi que les besoins du client, a été rédigé afin d’organiser au maximum le travail en équipe et l'organisation de celle-ci pour mener à bien ce projet.
 
 <a id="CC"></a>
 
@@ -49,7 +53,7 @@ Le projet vise à concevoir un système de contrôle d'accès et de surveillance
 
 |Tâche-3 (M.A.-B.)| Fonctions à développer et tâches à effectuer|
 | -------------- |:----------------------------------------|
-| Réseaux | Installation du serveur Linux virtualisé       |
+| Backend | Installation du serveur Linux virtualisé       |
 |  | Services Web sur serveur                              |
 |  | Services SGBD                                         |
 |  | Configuration des serveurs Linux, Web, MySQL          |
