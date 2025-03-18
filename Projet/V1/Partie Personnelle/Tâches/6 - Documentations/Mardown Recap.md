@@ -219,43 +219,53 @@ Ce projet présente la mise en place d'une Gestion Technique de Bâtiment. Il es
 ## 🔧 Fonctionnalités Attendues 🔧
 </div>
 
-### 1. Installation du Serveur Linux Virtualisé
-- 
+### 1. Configuration de l'environnement.
+- La réalisation des programmes et du projet doit être réalisée avec les applications Visual Studio Code et Node.js ainsi que la configuration des dépendances pour réaliser le projet.
 
-### 2. Installation et Configuration des Services Web
-- 
+### 2. Conception de l abase de données.
+- Des chémas de modélisation de la base de données doivent être réalisées modélisant les bâtiments et capteurs.
+- La base de données doit être configurée de manière à réaliser le projet.
 
-### 3. Documentation Logicielle
-- 
+### 3. Développement du Bakcned.
+- La partie Backend doit comprendre des endpoints permettant le transfert des données ainsi que la gestion des batiments et capteurs. Une actualisation automatique doit être réalisée.
+- La logique métier doit être implémentée dans le guide d'utilisation. Elle sera liée à la partie Backend afin de décrire en fonction des permissions dont dispose l'utilisateur, des actions et des règles qui doivent être respectées.
+- Une authentification utilisateur complète et sécurisée doit aussi être implémentée et liée à la base de données afin de sécuriser l'ensemble de l'application.
+- La validation consiste en l'obtention et l'affichage des données via l'API sur la page du client afin qu'il puisse observer en temps réel les données du bâtiment auquel il est attitré.
 
-### 4. Rédaction d’un Rapport Final
-- 
+### 4. Intégration avec la base de données.
+- Lors des différentes actions en lien avec la base de données, des requêtes SQL doivent être émisent pour effectuées le transfert des données.
 
-### 5. Gestion des Difficultés
-- 
+### 5. Tests et Validations.
+- Lors des tests, chaque endpoint doit être testé pour assurer le bon fonctionnement de l'application.
+- L'intégration ave c le Frontend doit aussi être méthodiquement réalisée car l'utilisateur ne doit pas pouvour accéder au Backend via le Frontend ni de pouvoir réaliser des actions auquel il ne doit pas avoir accès.
+- La réalisation d'un audit de sécurité ets primordial pour vérifier la sécurité de l'application, des communications, des systèmes, etc.
 
-### 6. Résultats et Enseignements
-- 
+### 6. Configuration des services.
+- Les services Uptime Kuma et NTOPNG doivent être configurer pour réaliser la surveillance et le traffic du réseau. Cel apermet de vérifier si les systèmes fonctionnent correctement ou alors si une anomalie apparait dans le traffic réseau.
+- L'installation des services dans un docker unique permet de centraliser tous les services en un seul point. Ils sont donc plus simple à gérer mais cela rend plus impactant un problème survenant sur le docker.
+- L'installation du service Zabbix permet à l'utilisateur de surveiller l'état des serveurs dont la base de données.
+- Pour finir, le service Grafana nous permet de superviser tous les systèmes mais aussi les différentes variables pouvant transitées ou provenir du réseau.
 
-### 7. Suggestions d’Amélioration
-- 
+### 7. Documentations.
+- La rédaction de documents professionnnels est très importante. Elle permet de tenir compote du travail accomplis mais aussi de fournir au client un support pour l'utiliser. Il peut s'agir de documentation système ou alors d'un guide d'utilisation par exemple.
 
 ---
 <a id="LINKS"></a>
-
++
 <div align="center"> 
 
 ## 🔗 Liens Utiles 🔗
 
 </div>
 
-- [Documentation ESP32](https://www.espressif.com/en/products/socs/esp32)
-- [DRIVE](https://drive.google.com/drive/folders/1FQuh7yTAb8-2iWqrpQ_k7F6g7_KdQTTM?usp=drive_link)
+- [Documentations systèmes](https://drive.google.com/drive/folders/1H58if5spBOuIf7rgikKWL6RQrw85gEN-?usp=sharing)
+- [GITHUB](https://github.com/MatheoAB)
+- [DRIVE](https://drive.google.com/drive/folders/1V1ERJhE6TJG8AdwI1S_2QSyIhg0Lucuy?usp=sharing)
 ---
 
-**Projet : Mini-Projet_RFID**  
-Créé par : [Mathéo ALBOUY-BENALIA](https://drive.google.com/drive/folders/1FQuh7yTAb8-2iWqrpQ_k7F6g7_KdQTTM?usp=drive_link)  
-Date : 6 janvier 2025  
+**Projet : Gestion Technique de Bâtiments**  
+Créé par : [Mathéo ALBOUY-BENALIA](https://drive.google.com/drive/folders/1EK4s1p8XXbPVbmiZznWmid2rBhrHbWuR?usp=sharing)  
+Date : 18 mars 2025  
 Licence : [BTS CIEL 2ème](https://carnus.fr)  
 
 ---
