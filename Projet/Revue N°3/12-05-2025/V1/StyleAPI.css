@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Conteneur du formulaire */
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    height: auto;
+}
+
+/* Logo */
+.box-logo img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Titres */
+.box-title {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Champs de saisie */
+.box-input {
+    width: 90%;
+    padding: 100px;
+    margin: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Bouton */
+.box-button {
+    background: #667eea;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.box-button:hover {
+    background: #764ba2;
+}
+
+/* Lien d'inscription */
+.box-register {
+    margin-top: 15px;
+    font-size: 14px;
+}
+.box-register a {
+    color: #667eea;
+    text-decoration: none;
+}
+.box-register a:hover {
+    text-decoration: underline;
+}
+
+/* Messages d'erreur */
+.error {
+    background: #ffdddd;
+    color: #d8000c;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.submit {
+    background: #667eea;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit:hover {
+    background: #764ba2;
+}

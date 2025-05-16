@@ -1,0 +1,58 @@
+/*Style de la page en générale.*/
+body{
+ background: #ddcdbe;
+}
+#container{
+ width:350px;
+ margin:0 auto;
+ margin-top:13%;
+ margin-left: 750px;
+}
+
+/*Forme du conteneur.*/
+form {
+ width:100%;
+ padding: 30px;
+ border-radius: 5%;
+ background: #fff;
+ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* Voir si besoin d'une police personnalisé !*/
+#container h1{
+ text-align: center;
+ padding-bottom: 20px;
+ margin-top: -10px;
+ font-family: 'Avenir Book';
+}
+
+/*Zones de texte.*/
+input[type=text], input[type=password] {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+ background-color: #996b5f;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border-radius: 10px;
+ cursor: pointer;
+ width: 100%;
+ border-color: black;
+ border: 2px solid black;
+ font-weight: bold;
+}
+input[type=submit]:hover {
+ background-color: lightgrey;
+ color: black;
+
+ border: 3px solid #000000;
+}
