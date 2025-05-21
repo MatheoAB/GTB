@@ -8,9 +8,9 @@
     <h1>Table.</h1> 
     
     <?php
-        $servname = "localhost";
-        $dbname = "pdodonnées";
-        $user = "root";
+        $servname = "XXXXXX";
+        $dbname = "XXXXXX";
+        $user = "XXXXXX";
         $pass = "";
             try
                 {

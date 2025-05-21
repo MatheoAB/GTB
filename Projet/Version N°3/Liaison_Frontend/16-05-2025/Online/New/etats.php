@@ -6,10 +6,10 @@
 </head>
 <body>
     <?php
-        $servername = '172.40.1.145';
-        $dbname = 'mairie';
-        $user = 'test';
-        $pass = 'rgEh9B95';
+        $servername = 'XXXXXX';
+        $dbname = 'XXXXXX';
+        $user = 'XXXXXX';
+        $pass = 'XXXXXX';
 
         try
             {

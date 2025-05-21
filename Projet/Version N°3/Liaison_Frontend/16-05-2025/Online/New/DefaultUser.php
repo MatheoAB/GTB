@@ -1,8 +1,8 @@
 <?php
-        $server_name = '172.40.1.145';
-        $db_name = 'mairie';
-        $user_name = 'test';
-        $password = 'rgEh9B95'; 
+        $servername = 'XXXXXX';
+        $dbname = 'XXXXXX';
+        $user = 'XXXXXX';
+        $pass = 'XXXXXX';
         
         $connection = mysqli_connect($server_name, $user_name, $password, $db_name);
 

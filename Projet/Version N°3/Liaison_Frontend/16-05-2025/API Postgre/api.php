@@ -2,11 +2,11 @@
 header("Content-Type: application/json"); // Déclare que l'API retourne des données JSON
 
 // Configuration de la base de données PostgreSQL
-$dbHost = "172.40.20.145";
-$dbPort = "8080";
-$dbName = "chripstack";
-$dbUser = "gtb@btscarnus.fr";
-$dbPassword = "zB9GOsrcZrpI0D";
+$dbHost = "XXXXXX";
+$dbPort = "XXXXXX";
+$dbName = "XXXXXX";
+$dbUser = "XXXXXX";
+$dbPassword = "XXXXXX";
 
 try {
     // Connexion à PostgreSQL

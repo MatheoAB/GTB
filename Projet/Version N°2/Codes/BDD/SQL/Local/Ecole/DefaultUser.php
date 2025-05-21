@@ -1,8 +1,8 @@
 <?php
-    $host = 'localhost';
-    $dbname = 'Ecole';
-    $username = 'root';
-    $password = '';
+    $host = 'XXXXXX';
+    $dbname = '';
+    $username = 'XXXXXX';
+    $password = 'XXXXXX';
         
         $connection = mysqli_connect($server_name, $user_name, $password, $db_name);
 

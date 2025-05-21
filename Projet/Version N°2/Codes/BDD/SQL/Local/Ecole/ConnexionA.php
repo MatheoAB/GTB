@@ -6,10 +6,10 @@
 </head>
 <body>
     <?php
-    $host = 'localhost';
+    $host = 'XXXXXX';
     $dbname = 'Ecole';
-    $username = 'root';
-    $password = '';
+    $username = 'XXXXXX';
+    $password = 'XXXXXX';
 
         try
             {

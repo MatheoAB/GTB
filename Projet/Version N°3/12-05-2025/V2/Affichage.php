@@ -10,10 +10,10 @@
 <body>
 
 <?php
-    $host = 'localhost';
-    $dbname = 'mairie';
-    $username = 'root';
-    $password = '';
+    $host = 'XXXXXX';
+    $dbname = 'XXXXXX';
+    $username = 'XXXXXX';
+    $password = 'XXXXXX';
         
     $con = mysqli_connect($host, $username, $password, $dbname);
     if(!$con)

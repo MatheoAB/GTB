@@ -10,9 +10,9 @@
 <body>
 
 <?php
-    $host = 'localhost';
+    $host = 'XXXXXX';
     $dbname = 'mairie';
-    $username = 'root';
+    $username = 'XXXXXX';
     $password = '';
         
     $con = mysqli_connect($host, $username, $password, $dbname);

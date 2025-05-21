@@ -2,7 +2,7 @@
 -- version 5.2.1deb1
 -- https://www.phpmyadmin.net/
 --
--- Hôte : localhost:3306
+-- Hôte : XXXXXX
 -- Généré le : mar. 11 mars 2025 à 15:39
 -- Version du serveur : 10.11.6-MariaDB-0+deb12u1
 -- Version de PHP : 8.2.26

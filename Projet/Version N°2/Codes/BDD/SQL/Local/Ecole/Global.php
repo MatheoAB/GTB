@@ -6,10 +6,10 @@
 </head>
 <body>
     <?php
-        $servername = 'localhost';
+        $servername = 'XXXXXX';
         $dbname = 'ecole';
-        $user = 'root';
-        $pass = '';
+        $user = 'XXXXXX';
+        $pass = 'XXXXXX';
 
         try {
             $dbco = new PDO("mysql:host=$servername;dbname=$dbname", $user, $pass);

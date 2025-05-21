@@ -2,11 +2,11 @@
 header("Content-Type: application/json"); // Déclare que l'API retourne des données JSON
 
 // Configuration de la base de données PostgreSQL
-$dbHost = "localhost";
-$dbPort = "5432";
-$dbName = "example_db";
-$dbUser = "postgres";
-$dbPassword = "password";
+$dbHost = "XXXXXX";
+$dbPort = "XXXXXX";
+$dbName = "XXXXXX";
+$dbUser = "XXXXXX";
+$dbPassword = "XXXXXX";
 
 try {
     // Connexion à PostgreSQL

@@ -1,10 +1,10 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Connexion à la base de données
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "gtb";
+    $servername = "XXXXXX";
+    $username = "XXXXXX";
+    $password = "XXXXXX";
+    $dbname = "XXXXXX";
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     // Vérifier la connexion

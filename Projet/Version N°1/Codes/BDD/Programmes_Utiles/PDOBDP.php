@@ -6,9 +6,9 @@
 </head>
 <body>
     <?php
-        $servername = 'localhost';
-        $dbname = 'pdodonnées';
-        $user = 'root';
+        $servername = 'XXXXXX';
+        $dbname = 'XXXXXX';
+        $user = 'XXXXXX';
         $pass = '';
 
         try

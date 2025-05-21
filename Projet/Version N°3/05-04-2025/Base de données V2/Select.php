@@ -10,10 +10,10 @@ Dans ce code, on va sélectionner toutes les colonnes de la table "Tableau1"dont
 Ains, l'opérateur sera supérieur à (">") et la valeur est 3 en spécifiant le nom de la colonne (column_name) comme nom.
 */
 
-    $server_name = 'localhost';
-    $user_name = 'root';
-    $password = '';
-    $database_name = 'mesdonnees';
+    $server_name = 'XXXXXX';
+    $user_name = 'XXXXXX';
+    $password = 'XXXXXX';
+    $database_name = 'XXXXXX';
 
         $connection = mysqli_connect($server_name, $user_name, $password, $database_name);
 

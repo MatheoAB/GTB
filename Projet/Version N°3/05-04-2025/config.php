@@ -1,9 +1,9 @@
 <?php
 // Informations d'identification
-define('DB_SERVER', '172.40.1.145');
-define('DB_USERNAME', 'test');
-define('DB_PASSWORD', 'rgEh9B95');
-define('DB_NAME', 'mairie');
+define('DB_SERVER', 'XXXXXX');
+define('DB_USERNAME', 'XXXXXX');
+define('DB_PASSWORD', 'XXXXXX');
+define('DB_NAME', 'XXXXXX');
  
 // Connexion � la base de donn�es MySQL 
 $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);

@@ -87,10 +87,10 @@
     ini_set('display_errors', 1);
 
     // Informations d'identification
-    define('DB_SERVER', 'localhost');
-    define('DB_USERNAME', 'root'); // Remplacez par votre utilisateur MySQL
-    define('DB_PASSWORD', '');    // Remplacez par votre mot de passe MySQL
-    define('DB_NAME', 'gtb');     // Remplacez par le nom de votre base de données
+    define('DB_SERVER', 'XXXXXX');
+    define('DB_USERNAME', 'XXXXXX'); // Remplacez par votre utilisateur MySQL
+    define('DB_PASSWORD', 'XXXXXX');    // Remplacez par votre mot de passe MySQL
+    define('DB_NAME', 'XXXXXX');     // Remplacez par le nom de votre base de données
 
     // Connexion à la base de données MySQL
     $conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);

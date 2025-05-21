@@ -8,10 +8,10 @@
     <h1>Table.</h1> 
     
     <?php
-        $servname = "localhost";
-        $dbname = "pdodonnées";
-        $user = "root";
-        $pass = "";
+        $servname = "XXXXXX";
+        $dbname = "XXXXXX";
+        $user = "XXXXXX";
+        $pass = "XXXXXX";
             try
                 {
                     $dbco = new PDO("mysql:host=$servname;dbname=$dbname", $user, $pass);

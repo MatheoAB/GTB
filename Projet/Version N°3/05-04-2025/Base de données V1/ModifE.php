@@ -6,10 +6,10 @@
 </head>
 <body>
     <?php
-        $servername = 'localhost';
-        $dbname = 'pdodonnées';
-        $user = 'root';
-        $pass = '';
+        $servername = 'XXXXXX';
+        $dbname = 'XXXXXX';
+        $user = 'XXXXXX';
+        $pass = 'XXXXXX';
 
         try
             {

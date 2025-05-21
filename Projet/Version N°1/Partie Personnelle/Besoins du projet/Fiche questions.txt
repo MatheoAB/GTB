@@ -13,24 +13,3 @@ Fiche questions :
 
 4 - Faut-il une page qui s'autogénère ?
 > Oui, pour la finalité, la page doit lors de la première connexion ou en fonction de se que choisit l'utilisateur, s'autocréer. Ce qui permet le gain de temps ainsi qu'une mixité lors de la création de l'interface en fonction des besoins utilisateurs.
-
-5 - Qu'est ce que la configuration du projet au sein de la partie N°1 ? 
->
-
-6 - 
->
-
-7 - 
->
-
-8 - 
->
-
-9 - 
->
-
-10 - 
->
-
-11 - 
->

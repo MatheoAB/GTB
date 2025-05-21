@@ -4,10 +4,10 @@ if (isset($_GET['action']) && $_GET['action'] === 'getData') {
     header("Content-Type: application/json");
 
     // Configuration de la base de données PostgreSQL
-    $dbHost = "172.40.20.145";
-    $dbPort = "9010";
-    $dbUser = "Smica";
-    $dbPassword = "CIEL12000";
+    $dbHost = "XXXXXX";
+    $dbPort = "XXXXXX";
+    $dbUser = "XXXXXX";
+    $dbPassword = "XXXXXX";
 
     try {
         // Connexion à PostgreSQL

@@ -1,8 +1,8 @@
 <?php
-$serveur = "172.40.20.145";
-$username = "gtb@btscarnus.fr";
-$passwdr = "zB9GOsrcZrpI0D";
-$dbname = "chirpstack";
+$serveur = "XXXXXX";
+$username = "XXXXXX";
+$passwdr = "XXXXXX";
+$dbname = "XXXXXX";
 
 // Connexion à la base de données
 $connexion = mysqli_connect($serveur, $username, $passwdr, $dbname);

@@ -18,10 +18,10 @@ if (!isset($_SESSION['user_id']) ||
 }
 
 // Configuration base de données
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'gtb');
+define('DB_SERVER', 'XXXXXX');
+define('DB_USERNAME', 'XXXXXX');
+define('DB_PASSWORD', 'XXXXXX');
+define('DB_NAME', 'XXXXXX');
 
 $conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 

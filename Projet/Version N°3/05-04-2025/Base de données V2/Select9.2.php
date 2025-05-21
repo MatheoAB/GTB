@@ -9,10 +9,10 @@
 
 <?php
 
-$server_name = 'localhost';
-$user_name = 'root';
-$password = '';
-$database_name = 'mesdonnees';
+$server_name = 'XXXXXX';
+$user_name = 'XXXXXX';
+$password = 'XXXXXX';
+$database_name = 'XXXXXX';
 
 if (isset($_POST['nom']))
     {

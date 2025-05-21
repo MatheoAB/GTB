@@ -7,9 +7,9 @@
 <body>
     <h1>Bases de données</h1>
     <?php
-    $servername = 'localhost';
-    $username = 'root';
-    $password = '';
+    $servername = 'XXXXXX';
+    $username = 'XXXXXX';
+    $password = 'XXXXXX';
 
     try
     {

@@ -1,8 +1,8 @@
 <?php
 // Informations d'identification
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_SERVER', 'XXXXXX');
+define('DB_USERNAME', 'XXXXXX');
+define('DB_PASSWORD', 'XXXXXX');
 define('DB_NAME', 'mairie');
  
 // Connexion � la base de donn�es MySQL 

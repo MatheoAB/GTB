@@ -91,10 +91,10 @@
     <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Connexion à la base de données
-        $servername = "172.40.10.145";
-        $username = "Smica";
-        $password = "CIEL12000";
-        $dbname = "gtb";
+        $servername = "XXXXXX";
+        $username = "XXXXXX";
+        $password = "XXXXXX";
+        $dbname = "XXXXXX";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 

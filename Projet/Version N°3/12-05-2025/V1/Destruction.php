@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root"; // Remplacez par votre nom d'utilisateur MySQL
-$password = ""; // Remplacez par votre mot de passe MySQL
+$servername = "XXXXXX";
+$username = "XXXXXX"; // Remplacez par votre nom d'utilisateur MySQL
+$password = "XXXXXX"; // Remplacez par votre mot de passe MySQL
 
 // Connexion au serveur MySQL
 $conn = new mysqli($servername, $username, $password);
